@@ -17,6 +17,7 @@ before_script:
 
     # ruby deps
     - gem install sass
+    - gem install compass
 
     # java deps
     - mkdir -p vendor/java
