@@ -15,6 +15,9 @@ before_script:
     - npm install
     - export UGLIFYJS_BIN=vendor/uglifyjs/node_modules/uglify-js/bin/uglifyjs
 
+    # ruby deps
+    - gem install sass
+
     # java deps
     - mkdir -p vendor/java
     - wget http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip -d vendor/java/compiler
